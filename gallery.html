@@ -190,7 +190,7 @@ footer { background: #1a3a6b; color: rgba(255,255,255,0.8); padding: 56px 6vw 32
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 function openLightbox(b64, caption) {
   document.getElementById('lightbox-img').src = 'data:image/jpeg;base64,' + b64;
   document.getElementById('lightbox-caption').textContent = caption;
@@ -200,10 +200,4 @@ function openLightbox(b64, caption) {
 function closeLightbox() {
   document.getElementById('lightbox').classList.remove('open');
   document.getElementById('lightbox-img').src = '';
-  document.body.style.overflow = '';
-}
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
-</script>
-
-</body>
-</html>
+  document.
