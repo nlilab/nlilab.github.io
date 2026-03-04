@@ -80,9 +80,8 @@ footer { background: #1a3a6b; color: rgba(255,255,255,0.8); padding: 56px 6vw 32
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="team.html">Team</a></li>
-    <li><a href="publications.html">Publications</a></li>
     <li><a href="news.html" class="active">Lab News</a></li>
-    <li><a href="funding.html">Funding</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
   </ul>
 </nav>
 
@@ -381,7 +380,7 @@ footer { background: #1a3a6b; color: rgba(255,255,255,0.8); padding: 56px 6vw 32
       <h4>Team</h4>
       <a href="team.html">Lab Members</a>
       <a href="funding.html">Funding</a>
-      <a href="mailto:nali@bcm.edu">Contact</a>
+      <a href="/cdn-cgi/l/email-protection#abc5cac7c2ebc9c8c685cecfde">Contact</a>
     </div>
     <div class="footer-col">
       <h4>External</h4>
@@ -395,7 +394,7 @@ footer { background: #1a3a6b; color: rgba(255,255,255,0.8); padding: 56px 6vw 32
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 function filterNews(cat, btn) {
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -409,11 +408,4 @@ function filterNews(cat, btn) {
   });
   // Hide year groups with no visible items
   document.querySelectorAll('.year-group').forEach(group => {
-    const visible = [...group.querySelectorAll('.news-item')].some(i => i.style.display !== 'none');
-    group.style.display = visible ? '' : 'none';
-  });
-}
-</script>
-
-</body>
-</html>
+    const visible = [...group.querySelect
