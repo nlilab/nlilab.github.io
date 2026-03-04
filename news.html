@@ -372,15 +372,13 @@ footer { background: #1a3a6b; color: rgba(255,255,255,0.8); padding: 56px 6vw 32
     </div>
     <div class="footer-col">
       <h4>Research</h4>
-      <a href="publications.html">Publications</a>
       <a href="index.html#research">Research Areas</a>
       <a href="news.html">Lab News</a>
     </div>
     <div class="footer-col">
       <h4>Team</h4>
       <a href="team.html">Lab Members</a>
-      <a href="funding.html">Funding</a>
-      <a href="/cdn-cgi/l/email-protection#abc5cac7c2ebc9c8c685cecfde">Contact</a>
+      <a href="mailto:nali@bcm.edu">Contact</a>
     </div>
     <div class="footer-col">
       <h4>External</h4>
@@ -389,23 +387,4 @@ footer { background: #1a3a6b; color: rgba(255,255,255,0.8); padding: 56px 6vw 32
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2025 Li Lab &middot; Baylor College of Medicine &middot; Houston, TX</span>
-    <span>naliphd.com</span>
-  </div>
-</footer>
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-function filterNews(cat, btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.querySelectorAll('.news-item').forEach(item => {
-    if (cat === 'all') {
-      item.style.display = '';
-    } else {
-      const badge = item.querySelector('.cat-badge');
-      item.style.display = badge && badge.textContent.trim() === cat ? '' : 'none';
-    }
-  });
-  // Hide year groups with no visible items
-  document.querySelectorAll('.year-group').forEach(group => {
-    const visible = [...group.querySelect
+    <span>&copy; 2025 Li Lab &middot; Baylor
